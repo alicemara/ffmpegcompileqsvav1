@@ -15,7 +15,7 @@ sudo apt-get install libvpl-dev
 
 and add the flag `--enable-libvpl` when at the compiling FFmpeg stage like so:
 
-`
+```
 cd ~/ffmpeg_sources && \
 wget -O ffmpeg-snapshot.tar.bz2 https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2 && \
 tar xjvf ffmpeg-snapshot.tar.bz2 && \
@@ -47,7 +47,7 @@ PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./conf
 PATH="$HOME/bin:$PATH" make && \
 make install && \
 hash -r
-`
+```
 
 
 Use at your own risk!
