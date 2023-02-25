@@ -50,4 +50,4 @@ hash -r
 ```
 
 
-Use at your own risk!
+Use at your own risk! This was a personal script I made to make a project easier and isn't an actively maintained project. 
